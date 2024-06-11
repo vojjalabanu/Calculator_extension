@@ -1,0 +1,14 @@
+{
+    "name":"calculator",
+     "version":"1.0.0",
+     "description":"calci for coding",
+     "manifest_version":3,
+     "author":"sampath",
+     "action":{
+             "default_popup":"index.html",
+             "default_title":"calci extension"
+     },
+     "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+      }
+}
